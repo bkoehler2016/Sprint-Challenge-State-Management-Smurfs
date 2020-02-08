@@ -18,6 +18,10 @@
   font-size: 1.5em;
 }
 
+.App-intro {
+  font-size: large;
+}
+
 .form-control {
   border: solid 1px black;
   margin-left: auto;
@@ -32,6 +36,18 @@
   margin-bottom: 10px;
 }
 
+.card {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
 .App-intro {
   font-size: large;
 }
@@ -40,6 +56,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
