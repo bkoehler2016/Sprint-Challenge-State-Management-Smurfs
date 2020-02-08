@@ -22,16 +22,20 @@
   font-size: large;
 }
 
+h1 {
+  color: #88ccff;
+}
+
 .form-control {
   border: solid 1px black;
   margin-left: auto;
   margin-right: auto;
-  width: 880px;
+  width: 440px;
   text-align: center;
 }
 
 .btn {
-  margin-left: 65%;
+  margin-left: 0;
   margin-right: auto;
   margin-bottom: 10px;
 }
@@ -42,6 +46,8 @@
   margin-right: auto;
   margin-bottom: 15px;
   width: 50%;
+  background-color: #1d943f;
+  color: #fff;
 }
 
 .card-title {

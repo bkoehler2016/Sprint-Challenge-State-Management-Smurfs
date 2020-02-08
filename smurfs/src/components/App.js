@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import axios from "axios";
-
+import Background from "../images/Smurf_background.jpg";
 import SmurfList from "./SmurfList";
 import SmurfForm from "./SmurfForm";
 
