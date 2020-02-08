@@ -18,11 +18,29 @@
   font-size: 1.5em;
 }
 
+.form-control {
+  border: solid 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 880px;
+  text-align: center;
+}
+
+.btn {
+  margin-left: 65%;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
 .App-intro {
   font-size: large;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

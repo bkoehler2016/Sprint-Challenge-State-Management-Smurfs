@@ -24,31 +24,52 @@ export default function SmurfForm() {
   };
 
   return (
-    <Form className="smurf-form" onSubmit={handleSubmit}>
-      Name:{" "}
-      <input
-        type="text"
-        name="name"
-        value={newSmurf.name}
-        onChange={handleChange}
-      />
-      Age:{" "}
-      <input
-        type="text"
-        name="age"
-        value={newSmurf.age}
-        onChange={handleChange}
-      />
-      Height:{" "}
-      <input
-        type="text"
-        name="height"
-        value={newSmurf.height}
-        onChange={handleChange}
-      />
-      <Button color="primary" type="submit">
-        Add Smurf
-      </Button>
+    <Form onSubmit={handleSubmit}>
+      <FormGroup row>
+        <Label for="name" sm={2}></Label>
+        <Col sm={10}>
+          <Input
+            type="text"
+            name="name"
+            value={newSmurf.name}
+            placeholder="Name"
+            onChange={handleChange}
+          />
+        </Col>
+      </FormGroup>
+
+      <FormGroup row>
+        <Label for="age" sm={2}></Label>
+        <Col sm={10}>
+          <Input
+            type="text"
+            name="age"
+            value={newSmurf.age}
+            placeholder="Age"
+            onChange={handleChange}
+          />
+        </Col>
+      </FormGroup>
+
+      <FormGroup row>
+        <Label for="height" sm={2}></Label>
+        <Col sm={10}>
+          <Input
+            type="text"
+            name="height"
+            value={newSmurf.height}
+            placeholder="Height"
+            onChange={handleChange}
+          />
+        </Col>
+      </FormGroup>
+      <FormGroup check row>
+        <Col sm={{ size: 10, offset: 2 }}>
+          <Button color="primary" type="submit">
+            Add Smurf
+          </Button>
+        </Col>
+      </FormGroup>
     </Form>
   );
 }

@@ -1,12 +1,13 @@
 import React from "react";
+import { Card, CardTitle, CardText } from "reactstrap";
 
 export default function SmurfCard(props) {
   console.log(props);
   return (
-    <div className="smurf-card">
-      <h3>{props.smurf.name}</h3>
-      <p>Age: {props.smurf.age}</p>
-      <p>Height: {props.smurf.height}</p>
-    </div>
+    <Card body inverse style={{ backgroundColor: "#333", borderColor: "#333" }}>
+      <CardTitle>{props.smurf.name}</CardTitle>
+      <CardText>Age: {props.smurf.age}</CardText>
+      <CardText>Height: {props.smurf.height}</CardText>
+    </Card>
   );
 }
