@@ -22,7 +22,49 @@
   font-size: large;
 }
 
+h1 {
+  color: #88ccff;
+}
+
+.form-control {
+  border: solid 1px black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 440px;
+  text-align: center;
+}
+
+.btn {
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 440px;
+  background-color: #1d943f;
+  color: #fff;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.App-intro {
+  font-size: large;
+}
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
